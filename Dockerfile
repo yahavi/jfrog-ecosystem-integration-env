@@ -18,7 +18,6 @@ RUN apt update
 RUN apt install -yq zip unzip curl git uuid jq gettext software-properties-common python3-pip python3-venv nodejs npm
 
 # Configure Python
-RUN ln -s /usr/bin/pip3 /usr/bin/pip
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
 # Install Go
